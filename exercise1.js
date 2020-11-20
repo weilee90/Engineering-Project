@@ -10,9 +10,9 @@ let visitedboundaries = [];
 let boundaryPoints = [];
  
 function preload(){
-    ins1 = loadSound('assets/Click.mp3');
-    ins2 = loadSound('assets/Twist.mp3');
-    img = loadImage('assets/House.png');
+    ins1 = loadSound('assets/sounds/Click.mp3');
+    ins2 = loadSound('assets/sounds/Twist.mp3');
+    img = loadImage('assets/pics/House.png');
     //vid = loadVideo('assets/Open.mp4');
 }
 function setup() {
